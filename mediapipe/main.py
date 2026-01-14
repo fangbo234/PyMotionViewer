@@ -166,8 +166,8 @@ class SceneViewer:
 # ==========================================
 def main():
     # 路径配置
-    GLB_PATH = "../uploads/boy.glb"
-    IMAGE_PATH = "../uploads/S2.png"
+    GLB_PATH = "../assets/boy.glb"
+    IMAGE_PATH = "../assets/example.png"
 
     # 1. 初始化模块
     app = SceneViewer()

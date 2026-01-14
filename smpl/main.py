@@ -304,9 +304,9 @@ class SceneManager:
 # 主入口
 # ==========================================
 if __name__ == "__main__":
-    PKL_FILE = "pkl/dance4.pkl"
+    PKL_FILE = "../assets/dance4.pkl"
     # 模型列表，程序会轮流分配给不同的人
-    GLB_LIST = ["../uploads/boy.glb", "../uploads/boy.glb"]
+    GLB_LIST = ["../assets/boy.glb", "../assets/boy.glb"]
 
     # 空间偏移步长 (米)，防止重叠
     OFFSET_STEP = 1.5
